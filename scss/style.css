@@ -1,0 +1,284 @@
+header {
+  background-color: rgba(151, 58, 238, 0.836);
+}
+
+header .nav {
+  width: 80%;
+  margin: 10px auto;
+}
+
+header .nav .icono {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+  margin: 10px;
+}
+
+header .nav .icono .dg {
+  padding: 20px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff79;
+}
+
+header .nav .main {
+  list-style: none;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(202, 40, 94, 0.623);
+}
+
+header .nav .boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 20px;
+  padding: 10px;
+}
+
+header .nav .boton:hover {
+  background-color: #3030dd;
+  border-radius: 15%;
+}
+
+header .nav .boton a {
+  text-decoration: none;
+  color: #f5e9e9;
+}
+
+header .nav .boton a:hover {
+  color: #0ed4db;
+  font-weight: bold;
+}
+
+.section1 h2 {
+  font-family: Arial, Helvetica,sans-serif;
+  text-align: center;
+}
+
+.section1 h4 {
+  text-align: center;
+  font-family: Arial, Helvetica,sans-serif;
+}
+
+.section1 p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.section1 .img {
+  text-align: center;
+}
+
+.section1 .button1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 60px;
+}
+
+.section1 .button1 button {
+  background-color: #4646d8;
+  border-radius: 20px 20px;
+}
+
+.section1 .button1 button:hover {
+  background-color: #0e0e9c;
+}
+
+.section1 .button1 button a {
+  text-decoration: none;
+  color: #110101;
+}
+
+.section1 .button1 button a:hover {
+  color: #d9e9e9;
+  font-weight: bold;
+}
+
+.section2 h2 {
+  font-family: Arial, Helvetica,sans-serif;
+  text-align: center;
+}
+
+.section2 h4 {
+  text-align: center;
+  font-family: Arial, Helvetica,sans-serif;
+}
+
+.section2 p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.section2 .img {
+  text-align: center;
+}
+
+.section2 .button {
+  background-color: #5656da;
+  border-radius: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+}
+
+.section2 .button:hover {
+  background-color: #3030dd;
+  border-radius: 15%;
+}
+
+.section2 .button a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.section2 .button a:hover {
+  color: cadetblue;
+  font-weight: bold;
+}
+
+.section3 {
+  background-color: rgba(224, 84, 84, 0.726);
+}
+
+.section3 h4 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+.section3 p {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+  background-color: rgba(245, 245, 220, 0.712);
+  padding: 20px;
+}
+
+form h3 {
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form .label1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  border: 1px solid #ac8484af;
+}
+
+form label {
+  padding: 14px;
+}
+
+form input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  padding-right: 200px;
+  border-radius: 10px;
+}
+
+form .textarea1 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid #ac8484af;
+}
+
+form .textarea1 textarea {
+  padding: 50px;
+}
+
+footer {
+  background-color: #d8d89f;
+}
+
+footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer ul p {
+  padding-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 10px;
+}
+
+body {
+  background-color: #d7b5f796;
+}
+/*# sourceMappingURL=style.css.map */
