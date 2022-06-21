@@ -1,3 +1,6 @@
+$blue: #5a5a9cd3;
+$grey: #635454;
+
 header{
     background-color: rgba(151, 58, 238, 0.836);
     .nav{
@@ -21,7 +24,7 @@ header{
             padding: 10px;
             display: flex;
             justify-content: center;
-            background-color: rgba(202, 40, 94, 0.623);
+            background-color: #ca285e9f;
         }
         .boton{
             display: flex;
@@ -29,14 +32,14 @@ header{
             margin: 20px;
             padding: 10px;
             &:hover{
-                background-color: rgb(48, 48, 221);
+                background-color: #4a4ac7;
                 border-radius: 15%;
             }
             a{
                 text-decoration: none;
                 color: rgb(245, 233, 233);
                 &:hover{
-                    color: rgb(14, 212, 219);
+                    color: hsl(76, 48%, 49%);
                     font-weight: bold;
                 }
             }

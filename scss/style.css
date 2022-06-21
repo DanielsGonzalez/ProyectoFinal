@@ -34,7 +34,7 @@ header .nav .main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: rgba(202, 40, 94, 0.623);
+  background-color: #ca285e9f;
 }
 
 header .nav .boton {
@@ -48,7 +48,7 @@ header .nav .boton {
 }
 
 header .nav .boton:hover {
-  background-color: #3030dd;
+  background-color: #4a4ac7;
   border-radius: 15%;
 }
 
@@ -58,7 +58,7 @@ header .nav .boton a {
 }
 
 header .nav .boton a:hover {
-  color: #0ed4db;
+  color: #99b941;
   font-weight: bold;
 }
 
@@ -72,11 +72,13 @@ header .nav .boton a:hover {
   font-family: Arial, Helvetica,sans-serif;
 }
 
-.section1 p {
+.section1 .textoD {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   line-height: 1.5;
+  background-color: #252564c4;
+  padding: 15px;
 }
 
 .section1 .img {
@@ -117,16 +119,67 @@ header .nav .boton a:hover {
   text-align: center;
 }
 
-.section2 h4 {
+.section2 h3 {
   text-align: center;
   font-family: Arial, Helvetica,sans-serif;
+  font-size: 2rem;
+  background-color: beige;
+  padding: 10px;
 }
 
-.section2 p {
+.section2 .direction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.2rem;
-  line-height: 1.5;
+  color: #f806a7;
+}
+
+.section2 .direction h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section2 .yellow {
+  background-color: yellow;
+}
+
+.section2 .caja {
+  height: 200px;
+  width: 200px;
+}
+
+.section2 .black {
+  background-color: black;
+}
+
+.section2 .caja {
+  height: 200px;
+  width: 200px;
+}
+
+.section2 .red {
+  background-color: red;
+}
+
+.section2 .caja {
+  height: 200px;
+  width: 200px;
+}
+
+.section2 .white {
+  background-color: white;
+}
+
+.section2 .caja {
+  height: 200px;
+  width: 200px;
 }
 
 .section2 .img {
@@ -280,5 +333,7 @@ footer ul li {
 
 body {
   background-color: #d7b5f796;
+  background-color: brown;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*# sourceMappingURL=style.css.map */

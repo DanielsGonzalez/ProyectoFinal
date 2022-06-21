@@ -2,11 +2,18 @@
 @import "main";
 @import "form";
 @import "footer";
-
+$letracolor:verano; 
 body{
     background-color: #d7b5f796;
+    @if($letracolor == invierno){
+        background-color: #1942cae3;
+    }
+    @else if($letracolor == verano){
+        background-color: brown;
+    }
+    @else{
+        background-color:blueviolet ;
+    }
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
-
 
